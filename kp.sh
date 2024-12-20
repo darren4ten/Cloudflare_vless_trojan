@@ -5,7 +5,7 @@
 SCRIPT_PATH="/root/kp.sh"                    # 脚本路径
  # serv00或ct8服务器及端口配置。修改s0.serv00.com的服务区(默认s0)，使用argo临时域名时，仅填 账号:密码:UUID:tcp1端口:tcp2端口:udp端口 即可
 declare -A servers=(  # 账号:密码:UUID:tcp1端口:tcp2端口:udp端口:argo固定域名:Argo固定隧道密钥(json或token) 
-    ["s0.serv00.com"]='ygkkk:A@123456:2f690ba2-b460-43ca-b9c3-1ac843bd2c70:5525:55255:55255'
+    ["s0.serv00.com"]='ygkkk:A@123456:a8edc7c2-44f2-4439-bcdc-299e29705773:29882:55255:38927'
     # 添加更多服务器......
 )
 
